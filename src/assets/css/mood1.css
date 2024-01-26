@@ -127,3 +127,22 @@ iframe {
     width: 600;
     height: 800;
 }
+
+.service {
+    width: 40%;
+    border: solid #BAB1ED 7px;
+    border-radius: 15%;
+    background-color: #FFFEF2;
+}
+
+#past {
+    float:left;
+    margin: 2.5% 0 0 1.5%;
+    padding: 1% 1.5%;
+} 
+
+#future {
+    float: right;
+    margin: 2.5% 1.5% 0 0;
+    padding: 1% 1.5%;
+}
