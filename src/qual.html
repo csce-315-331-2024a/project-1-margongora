@@ -12,11 +12,15 @@
 
         <!-- navbar div -->
         <div class="navbar">
-            <a href="qual.html">Qualifications</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="index.html">Landing</a>
-            <a href="service.html">Service</a>
-            <a href="ai.html">AI</a>
+            <a href="qual.html" class="navitem" id="active">Qualifications</a>
+            <a href="portfolio.html" class="navitem">Portfolio</a>
+            <a href="index.html" class="navitem">Landing</a>
+            <a href="service.html" class="navitem">Service</a>
+            <a href="ai.html" class="navitem">AI</a>
+        </div>
+<!-- resume -->
+        <div class="resume">
+            <iframe src="./assets/resume.pdf" height="800" width="600"></iframe>
         </div>
 
         <!-- relevant classwork -->
@@ -25,13 +29,16 @@
             <hr>
             <div class="table">
                 <!-- cs classes -->
-                <ul>
-                    <li>CSCE 121: Program Design and Concepts</li>
-                    <li>CSCE 222: Discrete Stuctures for Computing</li>
-                    <li>CSCE 221: Data Structures and Algorithms</li>
-                    <li>CSCE 310: Database Systems</li>
-                    <li>CSCE 313: Intro to Computer Systems</li>
-                </ul>
+                <div class="table-col">
+                    <ul>
+                        <li>CSCE 121: Program Design and Concepts</li>
+                        <li>CSCE 222: Discrete Stuctures for Computing</li>
+                        <li>CSCE 221: Data Structures and Algorithms</li>
+                        <li>CSCE 310: Database Systems</li>
+                        <li>CSCE 313: Intro to Computer Systems</li>
+                    </ul>
+                </div>
+                <div class="table-col">
                 <!-- ee classes -->
                 <ul>
                     <li>ECEN 214: Electrical Circuit Theory</li>
@@ -39,14 +46,17 @@
                     <li>ECEN 314: Signals and Systems</li>
                     <li>ECEN 350: Computer Architecture and Design</li>
                 </ul>
+                </div>
             </div>
         </div>
+        
+        
 
         <!-- technical skills -->
         <div class="skills">
             <h3>Technical Skills!</h3>
             <hr>
-            <ul class="skills">
+            <ul class="skills-list">
                 <li>C, C++</li>
                 <li>Python</li>
                 <li>Rust</li>
@@ -59,13 +69,10 @@
                 <li>Git</li>
                 <li>Jira</li>
                 <li>Agile</li>
+                <li>Bootstrap 5</li>
             </ul> 
         </div>
 
-        <!-- resume -->
-        <div class="resume">
-            <iframe src="./assets/resume.pdf" width="600" height="800"></iframe>
-        </div>
-
+        
     </body>
 </html>
