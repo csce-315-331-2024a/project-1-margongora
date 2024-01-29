@@ -34,11 +34,25 @@ a.navitem:hover {
 
 .about {
     width: 40%;
-    margin: 1.5% 1.5%;
+    margin: 1.5% 0 1.5% 1.5%;
     padding: 2rem 1.5%;
     border: solid #BAB1ED 7px;
     border-radius: 15%;
     background-color: #FFFEF2;
+    float:left;
+}
+
+.headshot {
+    width: 40%;
+    margin: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 15%;
+    float: right;
+}
+
+#personal-image {
+    border-radius: 15%;
+    border: solid #BAB1ED 7px;
 }
 
 .current-classwork {
