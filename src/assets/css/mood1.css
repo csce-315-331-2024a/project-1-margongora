@@ -134,7 +134,13 @@ a.navitem:hover {
 
 .resume {
     float:right;
-    padding: 1% 1.5%;
+    width: 40%;
+    margin: 1.5% 2%;
+}
+
+#resume {
+    border: solid #BAB1ED 7px;
+    border-radius: 15%;
 }
 
 iframe {
