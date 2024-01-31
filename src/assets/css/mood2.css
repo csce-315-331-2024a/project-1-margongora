@@ -91,18 +91,32 @@ li {
 .resume {
     float:left;
     width: 40%;
+    margin: 2% 2.5%;
 }
 
 #resume {
     width: 100%;
 }
 
-.relevant-classwork {
+.rel-classwork {
     width: 40%;
     float:right;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.table-col {
+    display:table-cell;
 }
 
 .skills {
     width: 40%;
     float:right;
+    margin-right: 2%;
+}
+
+.services {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 1%;
 }
