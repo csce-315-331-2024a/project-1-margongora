@@ -4,19 +4,25 @@
         <title>Margo Gongora | Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="assets/css/mood1.css" rel="stylesheet">
+        <link href="assets/css/mood1.css" rel="stylesheet" id="styles">
+        <script src="./assets/js/toggle.js"></script>
     </head>
     <body>
-        <!-- heading -->
-        <h1>Margo Gongora</h1>
 
-        <!-- navbar div -->
-        <div class="navbar">
-            <a href="qual.html" class="navitem">Qualifications</a>
-            <a href="portfolio.html" class="navitem" id="active">Portfolio</a>
-            <a href="index.html" class="navitem">Landing</a>
-            <a href="service.html" class="navitem">Service</a>
-            <a href="ai.html" class="navitem">AI</a>
+        <!-- header of the website, standard for every page -->
+        <div class="header">
+            <!-- heading -->
+            <h1>Margo Gongora</h1>
+
+            <!-- navbar div -->
+            <div class="navbar">
+                <a href="qual.html" class="navitem">Qualifications</a>
+                <a href="portfolio.html" class="navitem">Portfolio</a>
+                <a href="index.html" class="navitem" id="active">Landing</a>
+                <a href="service.html" class="navitem">Service</a>
+                <a href="ai.html" class="navitem">AI</a>
+                <button type="button" onclick="toggleStyle()">Change Style</button>
+            </div>
         </div>
 
         <div class="projects">

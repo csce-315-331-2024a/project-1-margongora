@@ -1,74 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head>  
         <title>Margo Gongora | Landing</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="assets/css/mood1.css" rel="stylesheet">
+        <link href="assets/css/mood1.css" rel="stylesheet" id="styles">
+        <script src="./assets/js/toggle.js"></script>
     </head>
     <body>
-        <!-- heading -->
-        <h1>Margo Gongora</h1>
 
-        <!-- navbar div -->
-        <div class="navbar">
-            <a href="qual.html" class="navitem">Qualifications</a>
-            <a href="portfolio.html" class="navitem">Portfolio</a>
-            <a href="index.html" class="navitem" id="active">Landing</a>
-            <a href="service.html" class="navitem">Service</a>
-            <a href="ai.html" class="navitem">AI</a>
+        <!-- header of the website, standard for every page -->
+        <div class="header">
+            <!-- heading -->
+            <h1>Margo Gongora</h1>
+
+            <!-- navbar div -->
+            <div class="navbar">
+                <a href="qual.html" class="navitem">Qualifications</a>
+                <a href="portfolio.html" class="navitem">Portfolio</a>
+                <a href="index.html" class="navitem" id="active">Landing</a>
+                <a href="service.html" class="navitem">Service</a>
+                <a href="ai.html" class="navitem">AI</a>
+                <button type="button" onclick="toggleStyle()">Change Style</button>
+            </div>
         </div>
 
-        <!-- about me section -->
-        <div class="about">
-            <h3>About Me!</h3>
-            <hr>
-            <p>
-                Howdy! I am currently a Computer Engineering student, as well as a Peer Teacher, at Texas A&M University.
-            </p>
-            <p>
-                Here, I've garnered a great deal of love and respect for the field I am trying to enter,
-                from learning the intricacies of digital design, circuits, and computer architecture to system design, data structures, and databases. I also hope to learn about operating systems and compiler design in my next year of school.
-            </p>
-            <p>
-                I mainly have experience coding with C, C++, and Python. I am currently learning the Rust programming language. I have experience developing applications in Python with Flask and Pyscopg, as well as minor experience in Rust with Axum, Askama and SQLx. I've learned to use databases during my time at Texas A&M, as well as had experience with the hardware description language Verilog and the LegV8 subset of the ARMv8 architecture.
-            </p>
-            <p>
-                I’m very quick to learn new things and new technologies, both as required of me and on my own time. My time as a former Teaching Assistant and current Peer Teacher has only fostered my love of learning, and ensured that I want to actively learn new things, not only for my career, but for the sake of learning and sharing that knowledge with others. I hope to pass this onto others, and give back to people the same way that I’ve been given my opportunities and passions.
-            </p>
-            <p>
-                I’ll be using this website as a way for prospective employers to get to know about me some more. My qualifications and resume will be hosted here, as well as any former and current projects that I’m working on, whether they be personal, or school related. I aspire to keep moving forward in my pursuit of knowledge, whether that be through graduate school or an internship, and I know I won’t have any regrets about it.
-            </p>
-        </div>
+        <div class="content">
+            
+            <!-- about me section -->
+            <div class="about">
+                <h3>About Me!</h3>
+                <hr>
+                <p>
+                    Howdy! I am currently a Computer Engineering student, as well as a Peer Teacher, at Texas A&M University.
+                </p>
+                <p>
+                    Here, I've garnered a great deal of love and respect for the field I am trying to enter,
+                    from learning the intricacies of digital design, circuits, and computer architecture to system design, data structures, and databases. I also hope to learn about operating systems and compiler design in my next year of school.
+                </p>
+                <p>
+                    I mainly have experience coding with C, C++, and Python. I am currently learning the Rust programming language. I have experience developing applications in Python with Flask and Pyscopg, as well as minor experience in Rust with Axum, Askama and SQLx. I've learned to use databases during my time at Texas A&M, as well as had experience with the hardware description language Verilog and the LegV8 subset of the ARMv8 architecture.
+                </p>
+                <p>
+                    I’m very quick to learn new things and new technologies, both as required of me and on my own time. My time as a former Teaching Assistant and current Peer Teacher has only fostered my love of learning, and ensured that I want to actively learn new things, not only for my career, but for the sake of learning and sharing that knowledge with others. I hope to pass this onto others, and give back to people the same way that I’ve been given my opportunities and passions.
+                </p>
+                <p>
+                    I’ll be using this website as a way for prospective employers to get to know about me some more. My qualifications and resume will be hosted here, as well as any former and current projects that I’m working on, whether they be personal, or school related. I aspire to keep moving forward in my pursuit of knowledge, whether that be through graduate school or an internship, and I know I won’t have any regrets about it.
+                </p>
+            </div>
 
-        <div class="headshot">
-            <img src="./assets/images/headshot.jpg" alt="A picture of Margo Gongora, circa 2022." id="personal-image" width="100%">
-        </div>
+            <div class="headshot">
+                <img src="./assets/images/headshot.jpg" alt="A picture of Margo Gongora, circa 2022." id="personal-image" width="100%">
+            </div>
 
-        <div style="clear:both;"></div>
+            <div style="clear:both;"></div>
 
-        <div class="container">
-        <!-- classes that I'm currently taking -->
-        <div class="current-classwork">
-            <h3>Current Classwork!</h3>
-            <hr>
-            <ul>
-                <li>ECEN 449: Microprocessor System Design</li>
-                <li>ECEN 325: Electronics</li>
-                <li>CSCE 314: Programming Languages</li>
-                <li>CSCE 331: Foundations of Software Engineering</li>
-            </ul>
-        </div>
-
-        <!-- links! -->
-        <div class="links">
-            <h3>Links!</h3>
-            <hr>
-            <ul>
-                <li><a href="https://github.com/margongora">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/margongora/">LinkedIn</a></li>
-            </ul>
-        </div>
+            <!-- classes that I'm currently taking -->
+            <div class="current-classwork">
+                <h3>Current Classwork!</h3>
+                <hr>
+                <ul>
+                    <li>ECEN 449: Microprocessor System Design</li>
+                    <li>ECEN 325: Electronics</li>
+                    <li>CSCE 314: Programming Languages</li>
+                    <li>CSCE 331: Foundations of Software Engineering</li>
+                </ul>
+            </div>
+            <!-- links! -->
+            <div class="links">
+                <h3>Links!</h3>
+                <hr>
+                <ul>
+                    <li><a href="https://github.com/margongora">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/margongora/">LinkedIn</a></li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>
