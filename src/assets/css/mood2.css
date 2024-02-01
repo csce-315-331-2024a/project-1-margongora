@@ -120,3 +120,7 @@ li {
     flex-flow: column wrap;
     margin: 0 1%;
 }
+
+.tooltip {
+    text-align: center;
+}
